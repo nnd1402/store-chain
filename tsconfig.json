@@ -1,0 +1,22 @@
+{
+	"include": [
+		"./src/*",
+		"src/enums/shop-type.ts",
+		"src/enums/product-type.ts",
+		"src/models/product-with-serial.ts",
+		"src/models/customer-data.ts",
+		"src/models/shop.ts",
+		"src/models/purchase.ts",
+		"src/models/product.ts",
+		"src/models/bill.ts"
+	],
+	"exclude": [],
+	"compilerOptions": {
+		"lib": ["esnext"],
+		"esModuleInterop": true,
+		"target": "ES6",
+		"module": "CommonJS",
+		"outDir": "./dist",
+		"rootDir": "./src"
+	}
+}

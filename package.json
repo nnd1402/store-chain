@@ -1,0 +1,21 @@
+{
+	"name": "node-typescript-template",
+	"version": "1.0.0",
+	"description": "nodejs typescript template",
+	"main": "src/index.ts",
+	"scripts": {
+		"start": "ts-node src/index.ts"
+	},
+	"dependencies": {
+		"ts-jest": "^27.1.4",
+		"ts-node": "8.5.2",
+		"typescript": "3.7.2",
+		"jest": "^27.5.1"
+	},
+	"devDependencies": {
+		"@types/node": "12.12.11",
+		"@types/jest": "^27.4.1",
+		"nodemon": "2.0.0"
+	},
+	"keywords": []
+}
